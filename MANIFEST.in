@@ -1,0 +1,4 @@
+include ladock/config/*
+include ladock/share/mdp/*
+include ladock/share/*
+include ladock/*

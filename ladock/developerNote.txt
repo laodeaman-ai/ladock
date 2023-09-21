@@ -1,0 +1,14 @@
+developer_note = 
+LADOCK is an innovative and free tool designed for conducting simultaneous simulations in computer-aided drug discovery, encompassing molecular docking and molecular dynamics. In molecular docking, LADOCK excels in handling single or double ligands. It supports ligands from various online sources. In molecular dynamics, LADOCK efficiently manages protein-ligand interactions and even ligand-ligand interactions, accommodating scenarios with one or multiple proteins and ligands.
+
+developer_contact =
+Contact:
+La Ode Aman
+laode_aman@ung.ac.id
+Chemistry Department, Universitas Negeri Gorontalo, Indonesia.
+
+citation_list =
+Citation:
+1. [First Article Title], [Author's Name], [Journal Name], [Journal Volume], [Page Numbers], [Year].
+2. [Second Article Title], [Author's Name], [Journal Name], [Journal Volume], [Page Numbers], [Year].
+3. [Third Article Title], [Author's Name], [Journal Name], [Journal Volume], [Page Numbers], [Year].
