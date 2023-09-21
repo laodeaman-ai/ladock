@@ -13,7 +13,7 @@ A. From GitHub
    ```
    git clone https://github.com/laodeaman.ai/LADOCK.git
    ```
-2. From your job directory naivigate to the main.py file in the LADOCK directory, and run the following command to create the necessary input files for your desired simulation type (replace `simulation_type` with your choice):
+2. From your job directory navigate to the main.py file in the LADOCK directory, and run the following command to create the necessary input files for your desired simulation type (replace `simulation_type` with your choice):
    ```
       python /path/to/ladock/main.py --create <simulation_type>
    ```
