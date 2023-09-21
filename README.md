@@ -15,26 +15,26 @@ A. From GitHub
    ```
 2. From your job directory navigate to the main.py file in the LADOCK directory, and run the following command to create the necessary input files for your desired simulation type (replace `simulation_type` with your choice):
    ```
-      python /path/to/ladock/main.py --create <simulation_type>
+   python /path/to/ladock/main.py --create <simulation_type>
    ```
 5. Edit the input files in the newly created simulation directory to configure your simulation parameters.
 6. Run the simulation using the following command (replace `simulation_type` with your choice):
    ```
-      python /path/to/ladoc/main.py --run <simulation_type>
+   python /path/to/ladoc/main.py --run <simulation_type>
    ```
 B. From PyPi
    1. Install the LADOCK package
    ```
-      pip install ladock
+   pip install ladock
    ```
    2. From your job directory, run the following command to create the necessary input files for your desired simulation type (replace `simulation_type` with your choice):
    ```
-      ladock --create <simulation_type>
+   ladock --create <simulation_type>
   ```
    3. Edit the input files in the newly created simulation directory to configure your simulation parameters.
    4. Run the simulation using the following command (replace `simulation_type` with your choice):
    ```
-      ladock --run <simulation_type>
+   ladock --run <simulation_type>
    ```
 
 ## Simulation Types
