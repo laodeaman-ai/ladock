@@ -10,35 +10,35 @@ LADOCK provides a flexible environment for conducting molecular docking and dyna
 A. From GitHub
 
 1. Clone the LADOCK repository to your local machine:
-
-   ```bash
+   ```
    git clone https://github.com/laodeaman.ai/LADOCK.git
    ```
-
-2. Navigate to the LADOCK directory:
-
-   ```bash
-   cd LADOCK
+2. From your job directory naivigate to main.py file in the LADOCK directory
+   
+4. Run the following command to create the necessary input files for your desired simulation type (replace `simulation_type` with your choice):
    ```
-
-3. Run the following command to create the necessary input files for your desired simulation type (replace `simulation_type` with your choice):
-
-   ```bash
-   ./ladock.py --create simulation_type
+      python /path/to/ladoc/main.py --create <simulation_type>
    ```
-
-4. Edit the input files in the newly created simulation directory to configure your simulation parameters.
-
-5. Run the simulation using the following command (replace `simulation_type` with your choice):
-
-   ```bash
-   ./ladock.py --run simulation_type
+5. Edit the input files in the newly created simulation directory to configure your simulation parameters.
+6. Run the simulation using the following command (replace `simulation_type` with your choice):
+   ```
+      python /path/to/ladoc/main.py --run <simulation_type>
    ```
 B. From PyPi
-   ```bash
-   pip install ladock
+   1. Install the LADOCK package
    ```
-   
+      pip install ladock
+   ```
+   2. From your job directory, run the following command to create the necessary input files for your desired simulation type (replace `simulation_type` with your choice):
+   ```
+      ladock --create <simulation_type>
+  ```
+   3. Edit the input files in the newly created simulation directory to configure your simulation parameters.
+   4. Run the simulation using the following command (replace `simulation_type` with your choice):
+   ```
+      ladock --run <simulation_type>
+   ```
+
 ## Simulation Types
 - `lavina`: Molecular docking using AutoDock Vina.
 - `lavinagpu`: Molecular docking using AutoDock Vina GPU.
