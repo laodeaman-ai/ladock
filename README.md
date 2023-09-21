@@ -62,6 +62,7 @@ Make sure to install the following dependency packages on your system:
 - mgltools
 - gromacs
 - acpype
+- openbabel
 
 ## Usage
 
@@ -77,7 +78,7 @@ This software is distributed under the MIT License. See the `LICENSE` file for d
 
 ## Developer Contact
 
-For questions or feedback, please contact the developer at developer_contact@example.com.
+For questions or feedback, please contact the developer at laodeaman.ai@gmail.com, or laode_aman@ung.ac.id.
 
 ## Citation
 
