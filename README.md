@@ -67,7 +67,11 @@ Make sure to install the following dependency packages on your system:
 To see the available options and how to use LADOCK, run the following command:
 
 ```bash
-./ladock.py --help
+ladock --help (-h)
+```
+or
+```bash
+/path/to/ladock/main.py --help (-h)
 ```
 
 ## License
