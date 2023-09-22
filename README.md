@@ -9,34 +9,26 @@ LADOCK provides a flexible environment for conducting molecular docking and dyna
 ## Installation
 A. From GitHub
 
-1. Clone the LADOCK repository to your local machine:
+1. Clone the LADOCK repository to your local machine.
+2. Extract it, and in the direcory run the following command:
    ```
-   git clone https://github.com/laodeaman.ai/LADOCK.git
-   ```
-2. From your job directory navigate to the main.py file in the LADOCK directory, and run the following command to create the necessary input files for your desired simulation type (replace `simulation_type` with your choice):
-   ```
-   python /path/to/ladock/main.py --create <simulation_type>
-   ```
-5. Edit the input files in the newly created simulation directory to configure your simulation parameters.
-6. Run the simulation using the following command (replace `simulation_type` with your choice):
-   ```
-   python /path/to/ladoc/main.py --run <simulation_type>
+   pip install .
    ```
 B. From PyPi
    1. Install the LADOCK package
-   ```
-   pip install ladock
-   ```
-   2. From your job directory, run the following command to create the necessary input files for your desired simulation type (replace `simulation_type` with your choice):
-   ```
-   ladock --create <simulation_type>
-  ```
-   3. Edit the input files in the newly created simulation directory to configure your simulation parameters.
-   4. Run the simulation using the following command (replace `simulation_type` with your choice):
-   ```
-   ladock --run <simulation_type>
-   ```
-
+      ```
+      pip install ladock
+      ```
+## Running Job
+   1. From your job directory, run the following command to create the necessary input files for your desired simulation type (replace `simulation_type` with your choice):
+      ```
+      ladock --create <simulation_type>
+      ```
+   2. Put your input files dan edit configuration file in the directory which created in the step 1.
+   3. Run the simulation using the following command (replace `simulation_type` with your choice):
+      ```
+      ladock --run <simulation_type>
+      ```
 ## Simulation Types
 - `lavina`: Molecular docking using AutoDock Vina.
 - `lavinagpu`: Molecular docking using AutoDock Vina GPU.
@@ -53,14 +45,11 @@ For detailed information on LADOCK, developer notes, and contact information, pl
 ## Dependencies
 
 Make sure to install the following dependency packages on your system:
-- autodock4
 - autodock-gpu
-- autodock vina
 - vina-gpu
 - mgltools
 - gromacs
 - acpype
-- openbabel
 
 ## Usage
 
@@ -69,11 +58,6 @@ To see the available options and how to use LADOCK, run the following command:
 ```bash
 ladock --help (-h)
 ```
-or
-```bash
-/path/to/ladock/main.py --help (-h)
-```
-
 ## License
 
 This software is distributed under the MIT License. See the `LICENSE` file for details.
