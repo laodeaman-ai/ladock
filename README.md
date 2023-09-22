@@ -14,7 +14,7 @@ A. From GitHub
    ```
    pip install .
    ```
-B. From PyPi
+B. From PyPi (last version)
    1. Install the LADOCK package
       ```
       pip install ladock
@@ -60,7 +60,7 @@ ladock --help (-h)
 ```
 ## License
 
-This software is distributed under the MIT License. See the `LICENSE` file for details.
+This software is distributed under the Apache License 2.0. See the `LICENSE` file for details.
 
 ## Developer Contact
 
