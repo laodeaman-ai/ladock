@@ -30,12 +30,12 @@ B. From PyPi (last version)
       ladock --run <simulation_type>
       ```
 ## Simulation Types
-- `lavina`: Molecular docking using AutoDock Vina. It can simulate multiples ligands and single/multiple target proteins in one excecution.
-- `lavinagpu`: Molecular docking using AutoDock Vina GPU. It can simulate multiples ligands and single/multiple target proteins in one excecution.
-- `la2vina`: Molecular docking using AutoDock Vina with multiple ligands simultaneously method. It can simulate multiples ligands and single/multiple target proteins in one excecution.
-- `ladock4`: Molecular docking using AutoDock4. It can simulate multiples ligands and single/multiple target proteins in one excecution.
-- `ladockgpu`: Molecular docking using AutoDock-GPU. It can simulate multiples ligands and single/multiple target proteins in one excecution.
-- `gmxprolig`: Molecular dynamics for single or multiple (chain) of protein with single or multiple ligands using GROMACS. It can simulate multiples complex in one excecution.
+- `lavina`: Molecular docking using AutoDock Vina. It can simulate multiples ligands and single/multiples target protein in one excecution.
+- `lavinagpu`: Molecular docking using AutoDock Vina GPU. It can simulate multiples ligands and single/multiples target protein in one excecution.
+- `la2vina`: Molecular docking using AutoDock Vina with multiple ligands simultaneously method. It can simulate multiples ligand and single/multiples target protein in one excecution.
+- `ladock4`: Molecular docking using AutoDock4. It can simulate multiples ligands and single/multiples target protein in one excecution.
+- `ladockgpu`: Molecular docking using AutoDock-GPU. It can simulate multiples ligands and single/multiples target protein in one excecution.
+- `gmxprolig`: Molecular dynamics for single or multiple (chain) of protein with single or multiples ligand using GROMACS. It can simulate multiples complex in one excecution.
 - `gmxliglig`: Molecular dynamics for multiple ligands using GROMACS. It can simulate multiples complex in one excecution.
 
 ## Developer Note
