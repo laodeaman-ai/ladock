@@ -20,7 +20,7 @@ B. From PyPi
       pip install ladock
       ```
 ## Running Job
-   1. From your job directory, run the following command to create the necessary input files for your desired simulation type (replace `simulation_type` with your choice):
+   1. From your job directory, run the following command to create the job directory and necessary input files for your desired simulation type (replace `simulation_type` with your choice):
       ```
       ladock --create <simulation_type>
       ```
