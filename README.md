@@ -45,21 +45,21 @@ For detailed information on LADOCK, developer notes, and contact information, pl
 ## Dependencies
 
 Make sure to install the following dependency packages on your system:
-- autodock4
-- autodock-gpu
-- autodock-vina
-- vina-gpu
-- mgltools
-- gromacs
-- acpype
-- openbabel
-- requests
-- biopython
-- tqdm
-- argparse
-- numpy
-- scipy
-- futures
+- autodock4 (apt install autodock-4, or get from the website)
+- autodock-gpu (get from the website or github)
+- autodock-vina (get from the website or github)
+- vina-gpu (get from the website or github)
+- mgltools (get from the website)
+- gromacs (get from the website)
+- acpype (get from conda)
+- openbabel (apt install openbabel)
+- requests (pip install requests)
+- biopython (pip install biopython)
+- tqdm (pip install tqdm)
+- argparse (pip install argprase)
+- numpy (pip install numpy)
+- scipy (pip install scipy)
+- futures (pip install futures)
 
 ## Usage
 
