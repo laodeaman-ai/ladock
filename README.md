@@ -45,11 +45,21 @@ For detailed information on LADOCK, developer notes, and contact information, pl
 ## Dependencies
 
 Make sure to install the following dependency packages on your system:
+- autodock4
 - autodock-gpu
+- autodock-vina
 - vina-gpu
 - mgltools
 - gromacs
 - acpype
+- openbabel
+- requests
+- biopython
+- tqdm,
+- argparse
+- numpy
+- scipy
+- futures
 
 ## Usage
 
