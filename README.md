@@ -45,9 +45,9 @@ For detailed information on LADOCK, developer notes, and contact information, pl
 ## Dependencies
 
 Make sure to install the following dependency packages on your system:
-- autodock4 (apt install autodock-4, or get from the website)
+- autodock4 (apt install autodock4, or get from the website, github)
 - autodock-gpu (get from the website or github)
-- autodock-vina (get from the website or github)
+- autodock-vina (apt install vina, or get from the website, or github)
 - vina-gpu (get from the website or github)
 - mgltools (get from the website)
 - gromacs (get from the website)
