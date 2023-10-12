@@ -55,7 +55,7 @@ Make sure to install the following dependency packages on your system:
 - openbabel
 - requests
 - biopython
-- tqdm,
+- tqdm
 - argparse
 - numpy
 - scipy
